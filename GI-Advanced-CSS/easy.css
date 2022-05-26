@@ -1,0 +1,38 @@
+
+
+table{
+  height:500px;
+  width:800px;
+}
+table,td{
+  border:solid 1px;
+  border-collapse:collapse
+ }
+
+tr:nth-child(odd){
+ background:red;
+ }
+
+tr:nth-child(even){
+ background:white;
+}
+
+*{
+  margin: 20px;
+}
+
+.stars{
+  background-color: darkblue;
+  width: 280px;
+  height: 240px;
+  margin-top:-527px;
+  margin-left: 35px;
+}
+
+p{
+  color: white;
+  font-size: 30px;
+  line-height: 7px;
+  letter-spacing: 15px;
+  text-align: center;
+}

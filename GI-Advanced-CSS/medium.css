@@ -1,0 +1,64 @@
+
+.product-list{
+    padding: 3em;
+}
+
+.product-list h1{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.product-list .card {
+    border: black solid;
+    border-radius: 5px;
+    padding: auto;
+    text-align: center;
+}
+
+.card .cTitle {
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 10px;
+    text-decoration: underline;
+
+}
+
+.card img {
+    width: 90%;
+    height: 25%;
+    border-radius: 5px;
+}
+
+.card .text {
+    text-align: left;
+    margin-left: 2em;
+    margin-bottom: 0.5px;
+    font-size: 17px;
+}
+
+.card .price {
+    font-size: 30px;
+    text-align: center;
+}
+
+.buynow-button {
+    background-color: rgb(196, 196, 6);
+    color: white;
+    border: none;
+    padding: 1em;
+    border-radius: 5px;
+    font-weight: bold;
+     margin-bottom: 15%;
+     cursor: pointer;
+     position: relative;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap:20px;
+    grid-column-gap:20px;
+}
